@@ -9,7 +9,7 @@ enum TopicView: Int, Identifiable, CaseIterable {
     var title: String {
         switch self {
         case .customBinding: return "Custom Binding"
-        default: return "Sin titulo"
+        default: return "Not available"
         }
     }
     
@@ -23,7 +23,7 @@ enum TopicView: Int, Identifiable, CaseIterable {
     @ViewBuilder
     var view: some View {
         switch self {
-        case .customBinding: Text("one")
+        case .customBinding: CustomBinding()
         default: Text("Other")
         }
     }

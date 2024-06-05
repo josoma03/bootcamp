@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310D515C2C0E159F00830C5C /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D515B2C0E159F00830C5C /* CustomBinding.swift */; };
 		31A24D472C0E0792000EB22F /* bootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A24D462C0E0792000EB22F /* bootcampApp.swift */; };
 		31A24D492C0E0792000EB22F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A24D482C0E0792000EB22F /* ContentView.swift */; };
 		31A24D4B2C0E0793000EB22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A24D4A2C0E0793000EB22F /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		31A24D592C0E0793000EB22F /* bootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A24D582C0E0793000EB22F /* bootcampTests.swift */; };
 		31A24D632C0E0793000EB22F /* bootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A24D622C0E0793000EB22F /* bootcampUITests.swift */; };
 		31A24D652C0E0793000EB22F /* bootcampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A24D642C0E0793000EB22F /* bootcampUITestsLaunchTests.swift */; };
+		31BE72722C10498100518F62 /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE72712C10498100518F62 /* ErrorAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310D515B2C0E159F00830C5C /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		31A24D432C0E0792000EB22F /* bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A24D462C0E0792000EB22F /* bootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootcampApp.swift; sourceTree = "<group>"; };
 		31A24D482C0E0792000EB22F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		31A24D5E2C0E0793000EB22F /* bootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A24D622C0E0793000EB22F /* bootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootcampUITests.swift; sourceTree = "<group>"; };
 		31A24D642C0E0793000EB22F /* bootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31BE72712C10498100518F62 /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310D515A2C0E158700830C5C /* topics */ = {
+			isa = PBXGroup;
+			children = (
+				310D515B2C0E159F00830C5C /* CustomBinding.swift */,
+				31BE72712C10498100518F62 /* ErrorAlert.swift */,
+			);
+			path = topics;
+			sourceTree = "<group>";
+		};
 		31A24D3A2C0E0792000EB22F = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +108,7 @@
 		31A24D452C0E0792000EB22F /* bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				310D515A2C0E158700830C5C /* topics */,
 				31A24D462C0E0792000EB22F /* bootcampApp.swift */,
 				31A24D482C0E0792000EB22F /* ContentView.swift */,
 				31A24D4A2C0E0793000EB22F /* Assets.xcassets */,
@@ -260,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A24D492C0E0792000EB22F /* ContentView.swift in Sources */,
+				31BE72722C10498100518F62 /* ErrorAlert.swift in Sources */,
+				310D515C2C0E159F00830C5C /* CustomBinding.swift in Sources */,
 				31A24D472C0E0792000EB22F /* bootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
